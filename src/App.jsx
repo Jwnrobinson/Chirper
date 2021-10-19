@@ -9,7 +9,7 @@ import db from 'firebase/firestore/lite';
 const App = () => {
     const [chirp, setChirp] = useState("");
     const [username, setUsername] = useState("")
-    
+
     const handleClick = (e) => {
         e.preventDefault();
 
@@ -73,8 +73,7 @@ const App = () => {
                          <div>
                  <input
                     
-                    type="text"
-                    className="chirpreturn"
+                    
                     />
                 </div>  
                 
